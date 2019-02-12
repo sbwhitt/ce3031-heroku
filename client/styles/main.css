@@ -1,0 +1,65 @@
+#searchBar {
+  margin: 15px 10px;
+}
+
+body {
+  background-color: white;
+}
+
+.tableWrapper {
+  max-height: 400px;
+  overflow: auto;
+}
+
+td:hover {
+  background-color: #ccccff;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: white;
+  height: 2em;
+  width: 100%;
+  box-shadow: 1px 1px 5px 2px #dedede;
+}
+
+.del-btn {
+  margin-top: 1em;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: white;
+  box-shadow: 1px 1px 5px 2px #dedede;
+  height: 2em;
+}
+
+.add-btn:hover, .del-btn:hover {
+  background-color: #dedede;
+  border-color: #dedede;
+  box-shadow: 1px 1px 5px 2px #cecece;
+}
+
+.new-listing-wrapper {
+  margin-top: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.listing-input {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  border-width: 1px;
+  border-color: DEDEDE;
+}
+
+.new-listing-form {
+  margin-bottom: 1em;
+}
+
+input {
+  margin-bottom: 0.25em;
+}
